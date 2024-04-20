@@ -1,7 +1,6 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: Classe le vagabond - Exploirateurs de Bruines
-pubDate: 2024-04-20
+pubDate: 2022-07-05
 author: Serupan
 description: "I had some challenges, but asking in the community really helped!"
 image:
@@ -9,6 +8,8 @@ image:
     alt: "Thumbnail of Astro rays."
 tags: ["astro", "learning in public", "setbacks", "community", "blogging"]
 ---
+
+*Classe additionnelle pour le jeu de rôle Exploirateurs de Bruines*
 
 ![A starry night sky.](../../images/levagabond.jpg)
 

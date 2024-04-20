@@ -1,7 +1,6 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: Préparer la prochaine partie, uniquement
-pubDate: 2024-07-02
+pubDate: 2022-07-01
 author: Serupan
 description: "After learning some Astro, I couldn't stop!"
 image:

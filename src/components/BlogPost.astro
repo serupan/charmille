@@ -1,5 +1,28 @@
 ---
-const { title, url } = Astro.props;
+import FormattedDate from "./FormattedDate.astro";
+const { pubDate, title, url } = Astro.props;
 ---
 
-<li><a href={url}>{title}</a></li>
+<style>
+    li {
+        display: flex;
+    }
+    span {
+        color: rgb(59, 59, 59);
+        flex: 0 0 130px;
+        font-style: italic;
+        font-weight: lighter;
+    }
+</style>
+
+<li>
+    <span
+        >{
+            pubDate.toLocaleDateString("fr-FR", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+            })
+        }</span
+    ><a href={url}>{title}</a>
+</li>
