@@ -1,12 +1,8 @@
 ---
 title: Préparer la prochaine partie, uniquement
-pubDate: 2022-07-01
+pubDate: 2024-04-21
 author: Serupan
-description: "After learning some Astro, I couldn't stop!"
-image:
-    url: "https://docs.astro.build/assets/arc.webp"
-    alt: "Thumbnail of Astro arcs."
-tags: ["astro", "blogging", "learning in public", "successes"]
+tags: ["jeu de role", "exploirateurs de bruines", "osr"]
 ---
 
 Ces derniers mois, je m'essaye à la campagne bac à sable. L'année dernière j'ai préparé une campagne Exploirateurs de Bruines, dans un format proche de la westmarch. Chaque partie était l'occasion pour les personnages d'explorer un donjon, affronter des ennemis, découvrir des trésors, avant de rentrer à la base.
