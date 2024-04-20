@@ -1,13 +1,17 @@
 ---
-title: My Third Blog Post
-author: Astro Learner
+layout: ../../layouts/MarkdownPostLayout.astro
+title: Classe le vagabond - Exploirateurs de Bruines
+pubDate: 2024-04-20
+author: Serupan
 description: "I had some challenges, but asking in the community really helped!"
 image:
     url: "https://docs.astro.build/assets/rays.webp"
     alt: "Thumbnail of Astro rays."
-pubDate: 2022-07-15
-tags: ["astro", "learning in public", "setbacks", "community"]
+tags: ["astro", "learning in public", "setbacks", "community", "blogging"]
 ---
+
+![A starry night sky.](../../images/levagabond.jpg)
+
 Les vagabonds sont les vers solitaires des terres humides. A peine moins bizarre qu'un bizarre, le vagabond a quand même le cerveau assez cabossé pour vouloir pieuter en dehors des enclaves. Les enclavés c'est dentaire, le vagabond c'est tout le contraire, il voyage de troubillon en troubillon mais ne croupit jamais longtemps au même endroit. A force de dédaler, il en connaît un rayon sur comment survivre dans la ville - ce que le chef a lu dans un livre, le vagabond l'a sûrement vu en vrai, en tout cas c'est ce qu'il raconte.
 #### Bonus du niveau 1
 
