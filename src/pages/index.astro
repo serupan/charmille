@@ -1,39 +1,52 @@
 ---
 import { getCollection } from "astro:content";
-import BaseLayout from '../layouts/BaseLayout.astro';
-import BlogPost from '../components/BlogPost.astro';
-import Tags from '../components/Tags.astro';
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import BlogPost from "../components/BlogPost.astro";
+import '../styles/global.css';
 
 const allPosts = await getCollection("posts");
-const pageTitle = "My Astro Learning Blog";
 const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
 
 allPosts.sort((a, b) => Number(b.data.pubDate) - Number(a.data.pubDate));
 ---
 
-<BaseLayout>
-	<style>
-		ul {
-  			list-style-type: none;
-			padding: 0;
-		}
-		ul li{
-			margin-bottom: 10px;
-		}
-	</style>
-	<ul>
-		{
-			allPosts.map((post) => (         
-				<BlogPost pubDate={post.data.pubDate} url={`/posts/${post.slug}/`} title={post.data.title} />
-			))
-		}
-	</ul>
-  <div class="tags">
-    {
-        tags.map((tag) => (
-            <a href={`/tags/${tag}`}>#{tag} </a>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Charmille</title>
+  </head>
+  <body>
+    <Header />
+    <style>
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      ul li {
+        margin-bottom: 10px;
+      }
+    </style>
+    <ul>
+      {
+        allPosts.map((post) => (
+          <BlogPost
+            pubDate={post.data.pubDate}
+            url={`/posts/${post.slug}/`}
+            title={post.data.title}
+          />
         ))
-    }
-  </div>
-
-</BaseLayout>
+      }
+    </ul>
+    <div class="tags">
+      {tags.map((tag) => <a href={`/tags/${tag}`}>#{tag} </a>)}
+    </div>
+    <Footer />
+    <script>
+      import "../scripts/menu.js";
+    </script>
+  </body>
+</html>
