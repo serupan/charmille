@@ -2,10 +2,6 @@
 title: Classe le vagabond - Exploirateurs de Bruines
 pubDate: 2024-04-20
 author: Serupan
-description: "I had some challenges, but asking in the community really helped!"
-image:
-    url: "https://docs.astro.build/assets/rays.webp"
-    alt: "Thumbnail of Astro rays."
 tags: ["jeu de role", "exploirateurs de bruines", "osr", "homebrew"]
 ---
 
