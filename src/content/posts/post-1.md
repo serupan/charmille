@@ -1,4 +1,17 @@
 ---
+title: Préparer la prochaine partie, uniquement
+pubDate: 2024-04-21
+author: Serupan
+tags: ["jeu de role", "exploirateurs de bruines", "osr"]
+---
+
+YOOOOOCes derniers mois, je m'essaye à la campagne bac à sable. L'année dernière j'ai préparé une campagne Exploirateurs de Bruines, dans un format proche de la westmarch. Chaque partie était l'occasion pour les personnages d'explorer un donjon, affronter des ennemis, découvrir des trésors, avant de rentrer à la base.
+
+![A starry night sky.](../../images/map9.jpg)
+
+Un avantage de ce format de campagne, c'est qu'il me   à une préparation très concentrée, pour une partie autosuffisante, ou "self-contained", en anglais. Les joueurs choisissent à l'avance un lieu à explorer, je prépare ce lieu, et le jour J, on joue ! C'est simple et efficace. 
+
+<!-- ---
 title: Classe le vagabond - Exploirateurs de Bruines
 pubDate: 2024-04-20
 author: Serupan
@@ -23,4 +36,5 @@ Les vagabonds sont les vers solitaires des terres humides. A peine moins bizarre
 
 Exemples de ficelles inventées à partir des mot *herbe* et *chasseur* : 
 - **Poteau-feu :** le vagabond peut mijoter des zèbres qu'il trouve pour faire une potion avec un effet anchois : rendre 1PV - donner 1 avantage à un jet de résistance. La potion périme vite donc faut la déguster rapidos.
-- **Chasseur déprime :** si le vagabond connaît le nom de sa cible, il lui fait 2 fois plus de dégâts la première fois qu'il l'attaque.
+- **Chasseur déprime :** si le vagabond connaît le nom de sa cible, il lui fait 2 fois plus de dégâts la première fois qu'il l'attaque. -->
+
