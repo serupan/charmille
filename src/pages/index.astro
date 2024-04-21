@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Header from "../components/Header.astro";
+import Head from "../components/Head.astro";
 import Footer from "../components/Footer.astro";
 import BlogPost from "../components/BlogPost.astro";
 import '../styles/global.css';
@@ -12,13 +13,7 @@ allPosts.sort((a, b) => Number(b.data.pubDate) - Number(a.data.pubDate));
 ---
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>Charmille</title>
-  </head>
+  <Head pageTitle="Dragon Odile", pageDescription="Blog de Serupan"/>
   <body>
     <Header />
     <style>

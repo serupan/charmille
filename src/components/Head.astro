@@ -1,0 +1,13 @@
+---
+const { pageTitle, pageDescription } = Astro.props;
+---
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={pageDescription} />
+    <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8pUHqzXZyVQVzhiuA5_j12EAzIkBfZaBI98UplyqsogqvJ_4tkrCGNhF6l63AK7KLsG4&usqp=CAU">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{pageTitle}</title>
+</head>
