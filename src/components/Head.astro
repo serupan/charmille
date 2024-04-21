@@ -5,8 +5,8 @@ const { pageTitle, pageDescription } = Astro.props;
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <meta name="description" content={pageDescription} />
+    <!-- <meta name="generator" content={Astro.generator} /> -->
+    <!-- <meta name="description" content={pageDescription} /> -->
     
     <meta property="og:site_name" content="◕ᴗ◕ Dragon Odile">
     <!-- <meta property="og:site_name" content="Dragon Odile"> -->
@@ -14,5 +14,26 @@ const { pageTitle, pageDescription } = Astro.props;
 
     <!-- <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8pUHqzXZyVQVzhiuA5_j12EAzIkBfZaBI98UplyqsogqvJ_4tkrCGNhF6l63AK7KLsG4&usqp=CAU"> -->
     <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
+    <!-- <title>{pageTitle}</title> -->
+    
+    <!-- Meta Tags Generated with https://metatags.io -->
+    <!-- Primary Meta Tags -->
     <title>{pageTitle}</title>
+    <meta name="title" content={pageTitle} />
+    <meta name="description" content={pageTitle} />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- <meta property="og:url" content="https://metatags.io/" /> -->
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageTitle} />
+    <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8pUHqzXZyVQVzhiuA5_j12EAzIkBfZaBI98UplyqsogqvJ_4tkrCGNhF6l63AK7KLsG4&usqp=CAU" />
+
+    <!-- Twitter -->
+    <!-- <meta property="twitter:card" content="summary_large_image" /> -->
+    <!-- <meta property="twitter:url" content="https://metatags.io/" /> -->
+    <!-- <meta property="twitter:title" content="Meta Tags — Preview, Edit and Generate" /> -->
+    <!-- <meta property="twitter:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" /> -->
+    <!-- <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" /> -->
+
 </head>
