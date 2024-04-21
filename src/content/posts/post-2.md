@@ -1,5 +1,6 @@
 ---
 title: Préparer la prochaine partie, uniquement
+description: Ces derniers mois, je m'essaye à la campagne bac à sable. L'année dernière j'ai préparé une campagne...
 pubDate: 2024-04-21
 author: Serupan
 tags: ["jeu de role", "exploirateurs de bruines", "osr"]
