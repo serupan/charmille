@@ -9,11 +9,11 @@ const { pageTitle, pageDescription } = Astro.props;
 
     <title>{pageTitle}</title>
 
-    <meta name="title" content="◑.◑ Dragon Odile">
+    <meta name="title" content={pageTitle}>
     <meta name="description" content={pageDescription}>
     
     <meta property="og:site_name" content="◑.◑ Dragon Odile">
-    <meta property="og:title" content="◑.◑ Dragon Odile">
+    <meta property="og:title" content={pageTitle}>
     <meta property="og:type" content="website">
     <!-- <meta property="og:url" content=""> -->
     <meta property="og:description" content={pageDescription}>
@@ -21,7 +21,7 @@ const { pageTitle, pageDescription } = Astro.props;
     
     <meta property="twitter:card" content="summary">
     <!-- <meta property="twitter:url" content=""> -->
-    <meta property="twitter:title" content="◑.◑ Dragon Odile">
+    <meta property="twitter:title" content={pageTitle}>
     <meta property="twitter:description" content={pageDescription}>
     <meta property="twitter:image" content="https://opengraph--charmille.netlify.app/tropical-fish.png">
 
