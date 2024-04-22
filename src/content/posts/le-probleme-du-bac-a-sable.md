@@ -12,7 +12,7 @@ Ces derniers mois, je m'essaye à la campagne jeu de rôle bac à sable. L'anné
 *Carte du monde pour Exploirateurs de Bruines*
 ## Des parties autosuffisantes
 
-Un avantage de ce format de campagne, c'est qu'il me contraint à une préparation très concentrée, pour une partie autosuffisante, ou "self-contained", en anglais. Les joueurs choisissent à l'avance un lieu à explorer, avec un objectif clair en tête. Je n'ai plus qu'à préparer ce lieu, et le jour J, on joue ! C'est simple, efficace, et on est sûrs de jouer à une partie rythmée et riche en rebondissements et en choix cornéliens.
+Un avantage de ce format de campagne, c'est qu'il me contraint à une préparation très concentrée, pour une partie autosuffisante, ou "self-contained", en anglais. Les joueurs choisissent à l'avance un lieu à explorer, avec un objectif clair en tête. Je n'ai plus qu'à préparer ce lieu, et le jour J, on joue ! C'est simple, efficace, et on est sûrs de jouer à une partie rythmée, riche en rebondissements et en choix cornéliens.
 
 De plus, je suis certain que ma préparation va me servir. Lorsque je prépare des éléments pour une partie de jeu de rôle, je ressens un enthousiasme ou une "hype" de les voir en jeu avec les autres joueurs, que ce soit une ambiance, un grand méchant, une énigme, une musique… J'éprouve un vrai plaisir à préparer un donjon la veille pour le lendemain - ça me laisse juste le temps qu'il faut pour nourrir des attentes avant de découvrir le soir de la partie ce que ma préparation va permettre avec le reste de la table.
 
