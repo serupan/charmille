@@ -10,7 +10,7 @@ const { pageTitle, pageDescription } = Astro.props;
 	<Head pageTitle={pageTitle}, pageDescription={pageDescription}/>
 	<body>
 		<Header />
-		<h2>{pageTitle}</h2>
+		<h1>{pageTitle}</h1>
         <slot />
 	    <Footer />
 		<script>
