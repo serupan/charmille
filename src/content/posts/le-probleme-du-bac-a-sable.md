@@ -6,7 +6,7 @@ author: Serupan
 tags: ["jeu de role", "exploirateurs de bruines", "osr"]
 ---
 
-Ces derniers mois, je m'essaye à la campagne jeu de rôle bac à sable. L'année dernière j'ai préparé une campagne Exploirateurs de Bruines proche d'une West Marches - un format de campagne dans lequel le groupe de joueur n'est pas fixe et peut varier d'une partie à l'autre . Chaque partie était l'occasion pour les personnages d'explorer un donjon (une bruine en l'occurrence), affronter des ennemis, découvrir des trésors, avant de rentrer à la base.
+Ces derniers mois, je m'essaye à la campagne jeu de rôle bac à sable. L'année dernière j'ai préparé une campagne Exploirateurs de Bruines proche d'une West Marches - un format de campagne dans lequel le groupe de joueur n'est pas fixe et peut varier d'une partie à l'autre. Chaque partie était l'occasion pour les personnages d'explorer un donjon (une bruine en l'occurrence), affronter des ennemis, découvrir des trésors, avant de rentrer à la base.
 
 ![](../../images/posts/map9.jpg)
 *Carte du monde pour Exploirateurs de Bruines*
