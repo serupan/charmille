@@ -1,13 +1,22 @@
 ---
 import FormattedDate from "./FormattedDate.astro";
 const { pubDate, title, url } = Astro.props;
+
+const mois: string[] = ["Jan", "Fév", "Mar", "Avr", "Mai", "Jun", "Jul", "Aoû", "Sep", "Oct", "Nov", "Déc"];
+const jour: number = pubDate.getDate();
+const moisIndex: number = pubDate.getMonth();
+const annee: number = pubDate.getFullYear();
+
+const dateFormatee: string = `${jour} ${mois[moisIndex]} ${annee}`;
+
+
 ---
 
 <style>
     li {
         display: flex;
     }
-    span {
+    time {
         color: rgb(59, 59, 59);
         flex: 0 0 130px;
         /* font-weight: lighter; */
@@ -18,13 +27,14 @@ const { pubDate, title, url } = Astro.props;
 </style>
 
 <li>
-    <span
+    <!-- <span
         >{
             pubDate.toLocaleDateString("fr-FR", {
                 year: "numeric",
-                month: "long",
+                month: "short",
                 day: "numeric",
             })
-        }</span
-    ><a href={url}>{title}</a>
+        }</span -->
+    <time datetime={dateFormatee}>{dateFormatee}</time>
+    <a href={url}>{title}</a>
 </li>
