@@ -27,11 +27,11 @@ Jouer avec un groupe fixe permet des choses différentes. On se passe notamment 
 ![](../../images/posts/map8.jpg)
 *Carte du monde pour ma saison 2 d'Exploirateurs de Bruines*
 
-Un inconvénient que je découvre avec la pratique concerne justement ma préparation. Partie après partie, je me rends compte que bien souvent, celle-ci est en décalage avec la progression des personnages-joueurs. Parce que je tiens à laisser les joueurs très (trop ?) libres, ils ont tendance à s'éparpiller, avancer, faire demi-tour, réfléchir à un plan, discuter longuement avec un PNJ pour se renseigner… Beaucoup de moments de jeu amusants, mais qui retardent l'arrivée en jeu des éléments que j'ai préparés.
+Un inconvénient que je découvre avec la pratique concerne justement ma préparation. Partie après partie, je me rends compte que bien souvent, celle-ci est en décalage avec la progression des personnages-joueurs. Parce que je tiens à laisser les joueurs très (trop ?) libres, ils ont tendance à s'éparpiller, avancer, faire demi-tour, réfléchir à un plan, discuter longuement avec un PNJ pour se renseigner… Beaucoup de moments amusants, mais qui retardent l'arrivée en jeu des éléments que j'ai préparés.
 
 Ainsi, je me retrouve souvent dans la situation d'avoir beaucoup d'éléments préparés en avance, que les joueurs ne rencontreront que d'ici plusieurs parties. Ce n'est probablement pas un problème en soi, mais pour moi c'en est un. Comme nous ne jouons qu'une fois toutes les deux semaines, cela me laisse bien assez de temps pour que mon enthousiasme redescende. Quand les personnages-joueurs rencontrent finalement le gros donjon ou le grand méchant que j'avais préparé, je ne suis plus aussi motivé pour le jouer, car j'ai eu depuis plein de nouvelles idées, bien plus excitantes… 
 
-## "I want my fun NOW... TONIGHT!"
+## I want my fun NOW... TONIGHT!
 
 Traduction : *"Je veux m'amuser MAINTENANT… CE SOIR !"*. Ce slogan est issu des conseils pour MJ du jeu de rôle ICRPG de Runehammer. Dans ICRPG, l'auteur avertit justement de ce problème des grandes et foisonnantes campagnes bac à sable. Je cite : *"[elles] reportent l'émerveillement et l'excitation à plus tard".*
 
