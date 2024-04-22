@@ -20,12 +20,12 @@ Tout n'est pas rose non plus. Le plus gros point faible du format est l'impérat
 
 ## Le problème du "vrai" bac à sable
 
-![](../../images/posts/map8.jpg)
-*Carte du monde pour ma saison 2 d'Exploirateurs de Bruines*
-
 J'ai récemment lancé la saison 2 de ma campagne d'Exploirateurs de Bruines, avec cette fois-ci un groupe fixe composé de joueurs qui avaient envie de prolonger l'aventure. 
 
 Jouer avec un groupe fixe permet des choses différentes. On se passe notamment de l'impératif pour les personnages de rentrer au village à chaque fin de partie, car on sait que les mêmes joueurs seront présents la prochaine fois. Cela me libère aussi de la gestion du rythme, arrêter une partie en plein milieu d'un donjon n'est plus un problème. Et il y a bien d'autres avantages, que je ne vais pas énumérer ici.
+
+![](../../images/posts/map8.jpg)
+*Carte du monde pour ma saison 2 d'Exploirateurs de Bruines*
 
 Un inconvénient que je découvre avec la pratique concerne justement ma préparation. Partie après partie, je me rends compte que bien souvent, celle-ci est en décalage avec la progression des personnages-joueurs. Parce que je tiens à laisser les joueurs très (trop ?) libres, ils ont tendance à s'éparpiller, avancer, faire demi-tour, réfléchir à un plan, discuter longuement avec un PNJ pour se renseigner… Beaucoup de moments de jeu amusants, mais qui retardent l'arrivée en jeu des éléments que j'ai préparés.
 
