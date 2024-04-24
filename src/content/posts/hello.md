@@ -1,4 +1,5 @@
 ---
+id: 1
 title: Hello !
 description: Blog de Serupan. J'aime jouer au jeu de rôle, et j'aime parler de jeu de rôle....
 pubDate: 2024-04-20

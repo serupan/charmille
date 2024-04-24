@@ -1,4 +1,5 @@
 ---
+id: 3
 title: Le problème du bac à sable
 description: Ces derniers mois, je m'essaye à la campagne jeu de rôle bac à sable. L'année dernière j'ai préparé une campagne...
 pubDate: 2024-04-22

@@ -1,9 +1,17 @@
 ---
+
 import Tags from "../components/Tags.astro";
 import BaseLayout from "./BaseLayout.astro";
-import PostComments from "../components/PostComments.astro";
+import LikesCounter from "../components/LikesCounter.astro";
+import LikeButton from "../components/LikeButton.astro";
+
 // const allPosts = await Astro.glob('../posts/*.md');
 const { frontmatter } = Astro.props;
+
+console.log("MarkdowwnPostLayout");
+console.log(frontmatter.id);
+
+
 ---
 <style>
     span{
@@ -12,6 +20,7 @@ const { frontmatter } = Astro.props;
         font-size: 16px;
     }
 </style>
+
 <BaseLayout pageTitle={frontmatter.title} pageDescription={frontmatter.description}>
     <div>
         <span
@@ -32,5 +41,6 @@ const { frontmatter } = Astro.props;
           <a href={`/tags/${tag}`}>#{tag} </a>
         ))}
     </div>
-    <!-- <PostComments /> -->
+    <LikesCounter postId={frontmatter.id}/>
+    <!-- <LikeButton /> -->
 </BaseLayout>

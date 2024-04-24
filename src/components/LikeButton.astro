@@ -1,0 +1,16 @@
+---
+import { db, Post, sql } from "astro:db";
+
+// const {postId} = Astro.props;
+// const postLikes = await db.select().from(Post).where(eq(Post.id, postId));
+
+if (Astro.request.method === 'POST') {
+    await db.update(Post).set({likes: sql`likes + 1`})
+}
+
+---
+
+<form method="POST" style="display: grid">
+    <input hidden id="likes" name="likes" />
+    <button title="Toast this post">toast</button>
+</form>

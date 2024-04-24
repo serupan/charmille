@@ -1,4 +1,5 @@
 ---
+id: 2
 title: Classe le vagabond - Exploirateurs de Bruines
 description: Les vagabonds sont les vers solitaires des terres humides. A peine moins bizarre qu'un bizarre...
 pubDate: 2024-04-21
