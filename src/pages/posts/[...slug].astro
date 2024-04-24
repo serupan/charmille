@@ -10,13 +10,15 @@ export async function getStaticPaths() {
   }));
 }
 
+export const prerender = false;
+
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 
 let likes = await db.select().from(Like).where(eq
   (Like.title, entry.slug));
 
-  console.log("likes length");
+console.log("likes length");
 console.log(likes.length);
 
 ---
