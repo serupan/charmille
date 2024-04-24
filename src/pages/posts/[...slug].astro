@@ -16,6 +16,9 @@ const { Content } = await entry.render();
 let likes = await db.select().from(Like).where(eq
   (Like.title, entry.slug));
 
+  console.log("likes length");
+console.log(likes.length);
+
 ---
 <MarkdownPostLayout frontmatter={entry.data} num_of_likes={likes.length} slug={entry.slug}>
     <Content />

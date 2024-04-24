@@ -1,9 +1,6 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 import LikesCounter from "../components/LikeCounter.astro";
-import type { CollectionEntry } from "astro:content";
-
-// const allPosts = await Astro.glob('../posts/*.md');
 
 type Props = {
     frontmatter: any;
@@ -12,6 +9,8 @@ type Props = {
 }
 
 const { frontmatter, num_of_likes, slug } = Astro.props;
+console.log("num_of_likes");
+console.log(num_of_likes);
 
 ---
 
