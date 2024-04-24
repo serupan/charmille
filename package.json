@@ -4,13 +4,15 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
+    "dev-db": "astro dev --remote",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro check && astro build --remote",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/db": "^0.10.5",
+    "@astrojs/db": "^0.10.6",
+    "@astrojs/node": "^8.2.5",
     "@astrojs/preact": "^3.2.0",
     "@resvg/resvg-js": "^2.6.2",
     "astro": "^4.6.3",

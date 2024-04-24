@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import MarkdownPostLayout from '../../layouts/MarkdownPostLayout.astro';
+import { db, eq, Like } from "astro:db";
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection('posts');
@@ -11,7 +12,18 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
+
+let likes = await db.select().from(Like).where(eq
+  (Like.id, entry.slug));
+
+  if (likes.length === 0) {
+  likes = [{
+    id: entry.slug,
+    likes: 0,
+  }]
+}
+
 ---
-<MarkdownPostLayout frontmatter={entry.data}>
+<MarkdownPostLayout frontmatter={entry.data} likes={likes}>
     <Content />
 </MarkdownPostLayout>

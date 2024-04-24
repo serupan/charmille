@@ -5,17 +5,22 @@ import Head from "../components/Head.astro";
 import Footer from "../components/Footer.astro";
 import BlogPost from "../components/BlogPost.astro";
 import '../styles/global.css';
+import { db, Like } from "astro:db";
 
 const allPosts = await getCollection("posts");
 const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
 
 allPosts.sort((a, b) => Number(b.data.pubDate) - Number(a.data.pubDate));
+
+const likes = await db.select().from(Like);
+
 ---
 
 <html lang="en">
   <Head pageTitle="Dragon Odile", pageDescription="Blog de Serupan"/>
   <body>
     <Header />
+    {likes.map((l) => <p>{l.likes}</p>)}
     <style>
       ul {
         list-style-type: none;

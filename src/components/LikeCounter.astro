@@ -1,0 +1,49 @@
+---
+const { likes } = Astro.props;
+
+---
+ <button 
+    id="like-btn" 
+    data-id={likes[0].id}>
+    <span>Likes</span>
+    <div id="likes-span">{likes[0].likes}</div>
+    <span>💙</span>
+</button>
+
+<script>
+
+    const likeBtn = document.querySelector("#like-btn") as HTMLButtonElement;
+    const likesSpan = document.querySelector("#likes-span") as HTMLButtonElement;
+    const id = likeBtn.dataset.id as string;
+
+    window.addEventListener("DOMContentLoaded", 
+    () => {
+        const isLiked = localStorage.getItem(id)
+        if(isLiked){
+            likeBtn.disabled = true;
+        }
+    });   
+
+    likeBtn.addEventListener("click", async () => {
+        try {
+            const req = await fetch(`/api/${id}.json`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ id: likeBtn.dataset.id }),
+            });
+
+            //@ts-ignore
+            likesSpan.textContent = ++likesSpan.textContent;
+
+            localStorage.setItem(id, "true");
+            likeBtn.disabled = true;
+
+        } catch(e){
+            console.error(e);
+            alert("uwusama");
+        }
+    })
+
+</script>
