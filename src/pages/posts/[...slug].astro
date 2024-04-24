@@ -14,16 +14,9 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 
 let likes = await db.select().from(Like).where(eq
-  (Like.id, entry.slug));
-
-  if (likes.length === 0) {
-  likes = [{
-    id: entry.slug,
-    likes: 0,
-  }]
-}
+  (Like.title, entry.slug));
 
 ---
-<MarkdownPostLayout frontmatter={entry.data} likes={likes}>
+<MarkdownPostLayout frontmatter={entry.data} num_of_likes={likes.length} slug={entry.slug}>
     <Content />
 </MarkdownPostLayout>

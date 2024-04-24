@@ -1,12 +1,13 @@
 ---
-const { likes } = Astro.props;
+const { num_of_likes, title } = Astro.props;
 
 ---
  <button 
     id="like-btn" 
-    data-id={likes[0].id}>
+    data-title={title}
+>
     <span>Likes</span>
-    <div id="likes-span">{likes[0].likes}</div>
+    <div id="likes-span">{num_of_likes}</div>
     <span>💙</span>
 </button>
 
@@ -14,35 +15,39 @@ const { likes } = Astro.props;
 
     const likeBtn = document.querySelector("#like-btn") as HTMLButtonElement;
     const likesSpan = document.querySelector("#likes-span") as HTMLButtonElement;
-    const id = likeBtn.dataset.id as string;
+    const title = likeBtn.dataset.title as string;
 
+    // decide whether or not it’s disabled on page load
     window.addEventListener("DOMContentLoaded", 
     () => {
-        const isLiked = localStorage.getItem(id)
+        const isLiked = localStorage.getItem(title);
         if(isLiked){
             likeBtn.disabled = true;
         }
     });   
 
+    // if clicked, increment
     likeBtn.addEventListener("click", async () => {
+        likeBtn.disabled = true;
+        //@ts-ignore
+        likesSpan.textContent = ++likesSpan.textContent;
+
         try {
-            const req = await fetch(`/api/${id}.json`, {
+            const req = await fetch("/api/addLike.json", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
                 },
-                body: JSON.stringify({ id: likeBtn.dataset.id }),
+                body: JSON.stringify({ 
+                    title
+                }),
             });
 
-            //@ts-ignore
-            likesSpan.textContent = ++likesSpan.textContent;
-
-            localStorage.setItem(id, "true");
-            likeBtn.disabled = true;
-
+            // save to locale storage for already liked
+            localStorage.setItem(title, "true");
         } catch(e){
             console.error(e);
-            alert("uwusama");
+            alert("Yoooooo");
         }
     })
 

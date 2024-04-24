@@ -1,12 +1,17 @@
 ---
-
-import Tags from "../components/Tags.astro";
 import BaseLayout from "./BaseLayout.astro";
 import LikesCounter from "../components/LikeCounter.astro";
 import type { CollectionEntry } from "astro:content";
 
 // const allPosts = await Astro.glob('../posts/*.md');
-const { frontmatter, likes } = Astro.props;
+
+type Props = {
+    frontmatter: any;
+    num_of_likes: number;
+    slug: string;
+}
+
+const { frontmatter, num_of_likes, slug } = Astro.props;
 
 ---
 
@@ -20,7 +25,7 @@ const { frontmatter, likes } = Astro.props;
 
 <BaseLayout pageTitle={frontmatter.title} pageDescription={frontmatter.description}>
     <div>
-        <LikesCounter likes={likes}/>
+        <LikesCounter num_of_likes={num_of_likes} title={slug}/>
         <br>
         <span
             >{
