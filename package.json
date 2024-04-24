@@ -11,13 +11,14 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/check": "^0.5.10",
     "@astrojs/db": "^0.10.6",
+    "@astrojs/netlify": "^5.2.0",
     "@astrojs/node": "^8.2.5",
     "@astrojs/preact": "^3.2.0",
     "@resvg/resvg-js": "^2.6.2",
     "astro": "^4.6.3",
-    "satori": "^0.10.13",
-    "satori-html": "^0.3.2"
+    "typescript": "^5.4.5"
   },
   "devDependencies": {
     "depcheck": "^1.4.7"
