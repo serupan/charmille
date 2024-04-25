@@ -2,18 +2,28 @@
 import { getCollection } from 'astro:content';
 import MarkdownPostLayout from '../../layouts/MarkdownPostLayout.astro';
 import { db, eq, Like } from "astro:db";
+import { getEntry } from 'astro:content';
 
-export async function getStaticPaths() {
-  const blogEntries = await getCollection('posts');
-  return blogEntries.map(entry => ({
-    params: { slug: entry.slug }, props: { entry },
-  }));
-}
+// export async function getStaticPaths() {
+//   const blogEntries = await getCollection('posts');
+//   return blogEntries.map(entry => ({
+//     params: { slug: entry.slug }, props: { entry },
+//   }));
+// }
 
 export const prerender = false;
 
-const { entry } = Astro.props;
+const { slug } = Astro.params;
+if (!slug) {
+  return Astro.redirect("/");
+}
+
+const entry = await getEntry('posts', slug);
+if(!entry) {
+  return Astro.redirect("/");
+}
 const { Content } = await entry.render();
+
 
 let likes = await db.select().from(Like).where(eq
   (Like.title, entry.slug));
