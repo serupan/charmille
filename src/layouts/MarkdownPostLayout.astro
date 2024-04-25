@@ -24,8 +24,6 @@ console.log(num_of_likes);
 
 <BaseLayout pageTitle={frontmatter.title} pageDescription={frontmatter.description}>
     <div>
-        <LikesCounter num_of_likes={num_of_likes} title={slug}/>
-        <br>
         <span
             >{
                 frontmatter.pubDate.toLocaleDateString("fr-FR", {
@@ -43,4 +41,5 @@ console.log(num_of_likes);
           <a href={`/tags/${tag}`}>#{tag} </a>
         ))}
     </div>
+    <LikesCounter num_of_likes={num_of_likes} title={slug}/>
 </BaseLayout>
