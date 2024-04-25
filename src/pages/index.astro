@@ -37,7 +37,7 @@ allPosts.sort((a, b) => Number(b.data.pubDate) - Number(a.data.pubDate));
       }
     </ul>
     <div class="tags">
-      {tags.map((tag) => <a href={`/tags/${tag}`}>#{tag} </a>)}
+      {tags.map((tag) => <a href={`/tags/${tag}`}>#{tag}</a>)}
     </div>
     <Footer />
     <script>

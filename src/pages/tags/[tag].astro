@@ -20,11 +20,14 @@ export async function getStaticPaths() {
 
 const { tag } = Astro.params;
 const { posts } = Astro.props;
+
+posts.sort((a, b) => Number(b.data.pubDate) - Number(a.data.pubDate));
+
 ---
 
 <BaseLayout pageTitle={tag}>
-  <p>Articles avec le tag {tag} :</p>
-  <div class="tags">
+  <p>Articles avec le tag <i>#{tag}</i> :</p>
+  <div>
     { posts.map((post) => <BlogPost pubDate={post.data.pubDate} url={`/posts/${post.slug}/`} title={post.data.title} />) }
   </div>
 </BaseLayout>
