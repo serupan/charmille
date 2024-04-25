@@ -32,7 +32,7 @@ const { frontmatter, num_of_likes, slug } = Astro.props;
         >
     </div>
     <slot />
-    <p>--</p>
+    <p style="margin-bottom: 10px">--</p>
     <div class="tags">
         {frontmatter.tags.map((tag) => (
           <a href={`/tags/${tag}`}>#{tag} </a>
