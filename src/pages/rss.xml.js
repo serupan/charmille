@@ -6,6 +6,6 @@ export async function GET(context) {
     description: 'Blog de Serupan',
     site: context.site,
     items: await pagesGlobToRssItems(import.meta.glob('./**/*.md')),
-    customData: `<language>fr-FR</language>`,
+    customData: `<language>en-us</language>`,
   });
 }
