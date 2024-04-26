@@ -13,9 +13,7 @@ export async function GET(context) {
     items: posts.map((post) => ({
       title: post.data.title,
       pubDate: post.data.pubDate,
-      content: sanitizeHtml(parser.render(post.body), {
-        allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
-      }),
+      description: post.data.description,
       link: `/posts/${post.slug}/`,
     })),
     customData: `<language>fr-FR</language>`,
