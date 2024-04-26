@@ -3,7 +3,7 @@ title: Classe le vagabond - Exploirateurs de Bruines
 description: Les vagabonds sont les vers solitaires des terres humides. A peine moins bizarre qu'un bizarre...
 pubDate: 2024-04-21
 author: Serupan
-tags: ["jeu de role", "exploirateurs de bruines", "osr", "homebrew"]
+tags: ["jeu de role", "exploirateurs de bruines", "osr"]
 ---
 
 *Classe additionnelle pour le jeu de rôle Exploirateurs de Bruines*
