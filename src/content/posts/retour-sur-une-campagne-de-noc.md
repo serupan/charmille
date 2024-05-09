@@ -28,7 +28,7 @@ Incarner mon personnage, c'est justement ce qui m'a manqué dans cette campagne.
 Pour décortiquer tous ces éléments, les parties menaient régulièrement à de longues conversations en "méta" avec nos personnages au second plan, pendant que nous autres joueurs nous faisions collectivement des nœuds au cerveau. Nous avons essayé de jouer ces moments en roleplay, mais l'équation reste difficile, voire frustrante. Jouer une scène de réflexion en roleplay, c'est un peu comme conduire une voiture et écrire un SMS en même temps (en moins dangereux), on fait les 2 choses, mais très mal. L'enquête patine, car on sent qu'on serait bien plus efficace pour partager des informations en passant en discussion méta. Et le roleplay en pâtit, comment incarner son personnage quand on est déjà en train de disséquer des tonnes d'informations en tant que joueur ? 
 
 Se pose aussi la question de la compétence du joueur ou du "player skill". Mon personnage connaît cet univers, il y a grandi, connaît ses rouages, au moins en partie. Mon personnage doit pouvoir se faire une idée claire de la situation à partir des indices trouvés. En tant que joueur, c'est un autre affaire. D'abord parce que je suis nul en énigme, ne comptez pas sur moi pour vous tirer d'affaire lors d'un escape-game. Ensuite, parce que je n'aime pas jouer au jeu de rôle pour ça. Passer de longues minutes à méditer lors d'une partie de jeu de cartes, jeu de société, avec plaisir. Mais en jeu de rôle, je veux agir, plutôt que réfléchir.
-### Le Système Nocturne
+### Système Nocturne
 
 Mon dernier point à aborder concernant le jeu est le système de résolution, appelé système Nocturne. J'ai eu beaucoup de mal avec ce système qui cherche à illustrer mécaniquement l'univers oppressant de NOC. 
 
@@ -51,7 +51,7 @@ Le système cherche à mécaniser des éléments précis de l'univers via des ja
 
 Mon personnage disposait par exemple d'un talent de "lumière" qui lui permettait de rayonner, métaphoriquement, comme un phare dans cet univers sombre - c'est en tout cas l'image que je m'en faisais. Mécaniquement, cela se traduisait par une capacité de faire baisser la jauge de noirceur des autres personnages. Une jauge de noirceur restée coincée à 0 la majorité du temps et qui n'a jamais inquiété personne lors de la campagne. En bref, mon talent de "lumière" a été complètement inutile, voire ridicule, car lorsque j'avais l'opportunité de m'en servir, les autres joueurs me répondaient que ça ne leur servait à rien.
 
-En bref, c'est assez frustrant pour moi de rejouer à des systèmes aussi mécanisés après avoir gouté à des jeux plus libres/freeform comme Macchiato Monsters ou Tokyo Otherscape, dans lesquels les effets des talents notés sur notre fiche de personnage sont laissés à notre propre interprétation.
+En bref, c'est assez frustrant pour moi de rejouer à des systèmes aussi mécanisés après avoir gouté à des jeux plus libres/ freeform comme Macchiato Monsters ou Tokyo Otherscape, dans lesquels les effets des talents notés sur notre fiche de personnage sont laissés à notre propre interprétation.
 
 ### Etoiles et souhaits
 
