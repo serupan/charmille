@@ -26,14 +26,6 @@ const dateFormatee: string = `${jour} ${mois[moisIndex]} ${annee}`;
 </style>
 
 <li>
-    <!-- <span
-        >{
-            pubDate.toLocaleDateString("fr-FR", {
-                year: "numeric",
-                month: "short",
-                day: "numeric",
-            })
-        }</span -->
     <time datetime={dateFormatee}>{dateFormatee}</time>
     <a href={url}>{title}</a>
 </li>
