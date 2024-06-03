@@ -1,12 +1,12 @@
 ---
-title: Préparer une partie Bac à sable, point de vue MJ
+title: Préparer une partie bac à sable, point de vue MJ
 description: Dans un précédent article, j'évoquais ma campagne d'exploirateurs de bruines et les réflexions qui me traversent en tant que Maître Déluge...
 pubDate: 2024-06-03
 author: Serupan
 tags: ["jeu de role", "exploirateurs de bruines", "osr"]
 ---
 
-Dans un précédent article, j'évoquais ma campagne d'exploirateurs de bruines et les réflexions qui me traversent en tant que Maître Déluge : *[Le problème du bac à sable](https://dragonodile.netlify.app/posts/le-probleme-du-bac-a-sable/)*. 
+Dans un précédent article, j'évoquais ma campagne d'Exploirateurs de bruines et les réflexions qui me traversent en tant que Maître Déluge : *[Le problème du bac à sable](https://dragonodile.netlify.app/posts/le-probleme-du-bac-a-sable/)*. 
 
 Lorsque je prépare une partie de jeu de rôle, en particulier des campagnes d'aventures, j'ai souvent une super idée que j'ai vraiment envie de voir en jeu avec le reste de la table. Il peut s'agir d'un nouveau PNJ, un nouveau lieu, une scène, un rebondissement scénaristique… Le risque, c'est de créer un scénario couloir, pour guider les joueurs vers cet élément coûte que coûte, au détriment de leur liberté d'action.
 
@@ -37,13 +37,13 @@ Avec cette méthode, j'assume mes envies de MJ. J'introduis le soleil dès la pr
 
 La partie préparée avec cette méthode a été excellente, une des meilleures de la campagne d'après toute la table. 
 
-Les joueurs ont commencé la partie dans un moment de calme et avaient déjà choisi leur prochaine destination. Ils ont eu du temps pour échanger, entre eux ou avec des PNJ dans des dialogues passionnants. Après une heure de jeu, j'ai introduit le soleil que j'avais préparé : au cours de leur voyage, les personnages ont rencontré une créature légendaire, dont ils avaient entendu parler. Cette rencontre était inévitable. Bien sûr, le choix de la réaction à adopter restaient entièrement le leur. Allaient-ils attaquer ? négocier ? observer ? 
+Les joueurs ont commencé la partie dans un moment de calme et avaient déjà choisi leur prochaine destination. Ils ont eu du temps pour échanger, entre eux et avec des PNJ dans des dialogues passionnants. Après une heure de jeu, j'ai introduit le soleil que j'avais préparé : au cours de leur voyage, les personnages ont rencontré une créature légendaire, dont ils avaient entendu parler. Cette rencontre était inévitable. Bien sûr, le choix de la réaction à adopter restaient entièrement le leur. Allaient-ils attaquer ? négocier ? observer ? 
 
 Le groupe a choisi de fuir, la scène a été marquante mais rapide. A partir de là, le reste de la partie a été l'occasion de découvrir quelles nouvelles intrigues allaient émerger du bac à sable qu'il restait à explorer. Bien sûr, j'ai gardé un œil sur le temps qui passe, et j'ai continué à introduire de nouvelles complications pour maintenir un rythme dynamique. Mais les joueurs ont senti qu'ils étaient libérés de la contrainte du temps, tout comme j'étais libéré de la pression de vouloir leur faire découvrir le soleil à tout prix. Les scènes de ce dernier acte étaient inattendues et mémorables, et ont plu a toute la table.
 
 Cette méthode est pour moi le meilleur des deux mondes. Quand je joue en pur bac à sable, certaines parties peuvent être un peu fades. Placer le soleil au début garantit au minimum une scène marquante, importante, et laisse toute la deuxième moitié de la partie entièrement ouverte pour se laisser surprendre. 
 
-Evidemment, je ne pense pas que cette méthode soit parfaite, ça serait trop facile et trop ennuyant, mais j'ai de bons espoirs et je tenais à partager mes réflexions sur ce sujet !
+Evidemment, je ne pense pas que cette méthode soit parfaite, ça serait trop facile et trop ennuyeux, mais j'ai de bons espoirs et je tenais à partager mes réflexions sur ce sujet !
 
 --
 
