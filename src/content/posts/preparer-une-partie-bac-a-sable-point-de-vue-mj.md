@@ -12,7 +12,7 @@ Lorsque je prépare une partie de jeu de rôle, en particulier des campagnes d'a
 
 Je schématiserais une telle partie ainsi : 
 ![](../../images/posts/schema1.png)
-*Ici et dans la suite de l'article, le soleil représente l'élément excitant que j'ai préparé, ma "super idée" que j'ai envie d'introduire dans la partie. Les nuages sont des péripéties que les joueurs doivent surmonter.*
+*Ici et dans la suite de l'article, **le soleil** représente l'élément excitant que j'ai préparé, ma "super idée" que j'ai envie d'introduire dans la partie. **Les nuages** sont des péripéties que les joueurs doivent surmonter.*
 
 Dans l'exemple ci-dessus, les joueurs ont peu de liberté, il n'y a qu'un seul chemin qui mène jusqu'au soleil.
 
