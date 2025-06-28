@@ -38,7 +38,7 @@ const { frontmatter, num_of_likes, slug } = Astro.props;
     </div>
     <slot />
     <p style="margin-bottom: 10px">--</p>
-    <div class="twitter">Envie d'en discuter ? <a href="https://twitter.com/serupan_2">Rendez-vous sur Twitter 💬</a></div>
+    <!-- <div class="twitter">Envie d'en discuter ? <a href="https://twitter.com/serupan_2">Rendez-vous sur Twitter 💬</a></div> -->
     <div class="tags">
         {frontmatter.tags.map((tag) => (
           <a href={`/tags/${tag}`}>#{tag} </a>
