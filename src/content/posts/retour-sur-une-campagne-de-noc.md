@@ -8,7 +8,7 @@ tags: ["jeu de role"]
 
 J'ai récemment terminé une courte campagne de NOC avec mon groupe de jeu de rôle. NOC est un jeu avec une structure classique, un meneur et des joueurs, qui se présente ainsi : *"un jeu de rôle situé dans un univers dystopique sombre et rétrofuturiste où l’humanité fait face à l’horreur de l’enfermement au sein d’une structure titanesque aux motivations obscures."* Je précise que j'étais joueur lors de cette campagne et que **je n'ai pas lu la base du jeu**, si ce n'est la partie qui concerne la création de personnages. **Mon retour portera sur la campagne que nous avons jouée avec mon groupe uniquement.** 
 
-![](../../images/posts/noc2.jpg)
+![](../../images/posts/retour-sur-une-campagne-de-noc-02.jpg)
 ### Dystopies et suspension d'incrédulité
 J'ai du mal à m'immerger dans les univers dystopiques - j'ai simplement du mal à croire à un monde peuplé d'humains, tous soumis à une unique force politique, absolument tentaculaire qui parvient à maintenir son pouvoir à tous les niveaux de la société. J'adhère bien plus facilement aux univers plus protéiformes, avec différentes communautés, structures, parfois fortes, parfois faibles mais qui existent les unes à côté des autres dans une sorte de chaos, voire de rapport de force. 
 
@@ -23,7 +23,7 @@ NOC est un jeu à l'univers très dense et qui nécessite un gros investissement
 
 Incarner mon personnage, c'est justement ce qui m'a manqué dans cette campagne. L'immersion est rendue très difficile dans un contexte d'enquête, qui plus est dans un univers original. En tant que joueurs, nous étions surchargés d'information à démêler, déchiffrer - des indices parfois matériels et très crédibles, de vrais dossiers de plusieurs pages, des dizaines de lignes remplies de données, de vraies ou de fausses pistes… 
 
-![](../../images/posts/noc1.jpg)
+![](../../images/posts/retour-sur-une-campagne-de-noc-01.jpg)
 
 Pour décortiquer tous ces éléments, les parties menaient régulièrement à de longues conversations en "méta" avec nos personnages au second plan, pendant que nous autres joueurs nous faisions collectivement des nœuds au cerveau. Nous avons essayé de jouer ces moments en roleplay, mais l'équation reste difficile, voire frustrante. Jouer une scène de réflexion en roleplay, c'est un peu comme conduire une voiture et écrire un SMS en même temps (en moins dangereux), on fait les 2 choses, mais très mal. L'enquête patine, car on sent qu'on serait bien plus efficace pour partager des informations en passant en discussion méta. Et le roleplay en pâtit, comment incarner son personnage quand on est déjà en train de disséquer des tonnes d'informations en tant que joueur ? 
 

@@ -1,7 +1,7 @@
 ---
 title: Retour sur une campagne de Secret of Eons
-description: f
-pubDate: 2025-06-19
+description: J’ai récemment terminé une campagne du jeu Secret of Eons de Romaric Briand et Alice Umrani. Le jeu est actuellement en playtest...
+pubDate: 2025-06-30
 author: Serupan
 tags: ["jeu de role"]
 ---
@@ -24,7 +24,7 @@ Au-delà de l’univers, j’ai adoré le système de jeu basé sur les cartes e
 
 J’ai également apprécié le système d’expérience que je trouve particulièrement élégant et ludique. Accompagné d’une musique de victoire de RPG, c’est toujours très satisfaisant pour les joueurs de récupérer une nouvelle carte dans leur paquet, et c’est une montée de niveau tellement simple.
 
-Par ailleurs, je trouve pertinent de laisser les joueurs décrire leurs succès et échecs. Je ne crois pas que ce point soit explicité dans la base, mais je pense que le jeu s’y prête bien. Lors d’une scène, un personnage-joueur a échoué son action, alors qu’il tentait de couper un cactus. Le joueur en a profité pour raconter que le cactus rentrait dans le sol comme une taupe alors que la lame de son personnage s’apprêtait à le trancher. C’est un super moyen d’ajouter de la consistance et de l’épaisseur au monde via les descriptions des joueurs. 
+Par ailleurs, je trouve pertinent de laisser les joueurs décrire leurs succès et échecs. Je ne crois pas que ce point soit explicité dans la base, mais le jeu s’y prête bien. Lors d’une scène, un personnage-joueur a échoué son action, alors qu’il tentait de couper un cactus. Le joueur en a profité pour raconter que le cactus rentrait dans le sol comme une taupe alors que la lame de son personnage s’apprêtait à le trancher. C’est un super moyen d’ajouter de la consistance et de l’épaisseur au monde via les descriptions des joueurs. 
 
 ![](../../images/posts/retour-sur-une-campagne-de-secret-of-eons-03.jpg)
 
