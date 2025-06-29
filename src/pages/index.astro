@@ -39,6 +39,7 @@ allPosts.sort((a, b) => Number(b.data.pubDate) - Number(a.data.pubDate));
     <div class="tags">
       {tags.map((tag) => <a href={`/tags/${tag}`}>#{tag}</a>)}
     </div>
+    <!-- <a href="https://komments.cloud/f33a9f84501f84954f4cfc" class="commentaires" style="margin-top: 1em" target="_blank"> Laisser un commentaire 💬 </a> -->
     <Footer />
     <script>
       import "../scripts/menu.js";

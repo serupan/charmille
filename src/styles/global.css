@@ -72,3 +72,8 @@ h1 a:hover {
   font-size: 14px;
   margin-right: .65rem;
 }
+
+.commentaires {
+    display: inline-block;
+    font-size: 14px;
+}
