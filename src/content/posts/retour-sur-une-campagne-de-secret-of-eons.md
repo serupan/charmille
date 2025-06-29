@@ -72,6 +72,6 @@ Cette découverte de Secret of Eons a été une franche réussite. Le jeu tient 
 
 Je profite de cet article pour partager les dessins réalisés par Fougère au cours de cette campagne, une belle preuve de l’engouement de la table pour le jeu ! J’en profite aussi pour partager les musiques que j’ai utilisées pour nos parties, et qui pourront peut-être vous inspirer, que ce soit pour Secret of Eons, ou un autre jeu dans un univers aux couleurs de JRPG. 
 
-Lien vers la playlist : https://www.youtube.com/watch?v=OceanSgbmxw&list=PLCTCaE2D10w4ORoww5Wb0vP0holawzRqUv
+Lien vers la playlist : https://youtube.com/playlist?list=PLCTCaE2D10w4ORoww5Wb0vP0holawzRqU&si=vntJmTCBeXzmu9Fh
 
 ![](../../images/posts/retour-sur-une-campagne-de-secret-of-eons-07.jpg)
