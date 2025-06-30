@@ -6,7 +6,7 @@ import netlify from "@astrojs/netlify";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://dragonodile.netlify.app",
+  site: "https://pharefantome.com/",
   integrations: [db()],
   output: "hybrid",
   adapter: netlify()
