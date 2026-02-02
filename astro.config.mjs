@@ -1,13 +1,10 @@
-import { defineConfig } from 'astro/config';
-import db from "@astrojs/db";
-import node from '@astrojs/node';
+import { defineConfig } from "astro/config";
 import netlify from "@astrojs/netlify";
+import db from "@astrojs/db";
 
-
-// https://astro.build/config
 export default defineConfig({
   site: "https://pharefantome.com/",
+  output: "server",
+  adapter: netlify(),
   integrations: [db()],
-  output: "static",
-  adapter: netlify()
 });
