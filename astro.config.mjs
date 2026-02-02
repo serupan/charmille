@@ -8,6 +8,6 @@ import netlify from "@astrojs/netlify";
 export default defineConfig({
   site: "https://pharefantome.com/",
   integrations: [db()],
-  output: "hybrid",
+  output: "static",
   adapter: netlify()
 });
