@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
-import LikesCounter from "../components/LikeCounter.astro";
+// import LikesCounter from "../components/LikeCounter.astro";
 
 type Props = {
     frontmatter: any;
@@ -8,7 +8,7 @@ type Props = {
     slug: string;
 }
 
-const { frontmatter, num_of_likes, slug } = Astro.props;
+const { frontmatter, slug } = Astro.props;
 ---
 
 <style>
@@ -45,5 +45,5 @@ const { frontmatter, num_of_likes, slug } = Astro.props;
           <a href={`/tags/${tag}`}>#{tag} </a>
         ))}
     </div>
-    <LikesCounter num_of_likes={num_of_likes} title={slug}/>
+    <!-- <LikesCounter num_of_likes={num_of_likes} title={slug}/> -->
 </BaseLayout>

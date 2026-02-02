@@ -1,6 +1,6 @@
 ---
 import MarkdownPostLayout from '../../layouts/MarkdownPostLayout.astro';
-import { db, eq, Like } from "astro:db";
+// import { db, eq, Like } from "astro:db";
 import { getEntry } from 'astro:content';
 
 export const prerender = false;
@@ -16,10 +16,10 @@ if(!entry) {
 }
 const { Content } = await entry.render();
 
-let likes = await db.select().from(Like).where(eq
-  (Like.title, entry.slug));
+// let likes = await db.select().from(Like).where(eq
+//   (Like.title, entry.slug));
 
 ---
-<MarkdownPostLayout frontmatter={entry.data} num_of_likes={likes.length} slug={entry.slug}>
+<MarkdownPostLayout frontmatter={entry.data} slug={entry.slug}>
     <Content />
 </MarkdownPostLayout>
