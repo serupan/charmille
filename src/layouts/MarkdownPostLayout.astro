@@ -4,7 +4,6 @@ import BaseLayout from "./BaseLayout.astro";
 
 type Props = {
     frontmatter: any;
-    num_of_likes: number;
     slug: string;
 }
 
@@ -39,11 +38,9 @@ const { frontmatter, slug } = Astro.props;
     <slot />
     <p style="margin-bottom: 10px">--</p>
     <a href="https://komments.cloud/f33a9f84501f84954f4cfc" class="commentaires" target="_blank"> Laisser un commentaire 💬 </a>
-    <!-- <div class="twitter">Envie d'en discuter ? <a href="https://twitter.com/serupan_2">Rendez-vous sur Twitter 💬</a></div> -->
     <div class="tags">
         {frontmatter.tags.map((tag) => (
           <a href={`/tags/${tag}`}>#{tag} </a>
         ))}
     </div>
-    <!-- <LikesCounter num_of_likes={num_of_likes} title={slug}/> -->
 </BaseLayout>
